@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="@dimen/_50sdp">
+
+    <TextView
+        android:id="@+id/tvRank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textSize="@dimen/_13ssp"
+        android:textColor="@color/colorBlack"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/_20sdp"/>
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:src="@drawable/sarang"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_toRightOf="@id/tvRank"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prateek"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_13ssp"
+        android:layout_toRightOf="@id/ivImage"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/_20sdp"/>
+
+
+    <TextView
+        android:id="@+id/tvPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1234 Points"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_10ssp"
+        android:background="@drawable/points_background"
+        android:padding="@dimen/_6sdp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="@dimen/_20sdp"/>
+</RelativeLayout>

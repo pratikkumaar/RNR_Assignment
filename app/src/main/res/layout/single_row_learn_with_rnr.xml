@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="@dimen/_10sdp"
+    android:id="@+id/cardMain"
+    app:cardElevation="@dimen/_5sdp">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:src="@drawable/invest"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivImage"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prateek"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginLeft="@dimen/_10sdp"/>
+
+        <TextView
+            android:id="@+id/tvShortDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prateek"
+            android:textSize="@dimen/_11ssp"
+            android:layout_marginLeft="@dimen/_10sdp"/>
+    </LinearLayout>
+</RelativeLayout></androidx.cardview.widget.CardView>
